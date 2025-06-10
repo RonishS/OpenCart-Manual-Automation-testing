@@ -1,41 +1,58 @@
-# OpenCart Manual Testing Project  
+# 🚛 OpenCart Manual Testing Project (v4.0)
 
-## Overview  
-This project validates critical workflows of the OpenCart e-commerce platform, including user registration, cart management, and guest checkout. Defects were tracked using Azure DevOps across 4 Agile sprints.  
+[![Test Coverage](https://img.shields.io/badge/Tests-50%2B-blue)]()
+[![Bugs Logged](https://img.shields.io/badge/Bugs-19-orange)]()
+[![Status](https://img.shields.io/badge/Status-Complete-success)]()
 
-## 🛠️ Tools & Technologies  
-- **Testing Tools:** Azure DevOps (Bug Tracking) .
-- **Methodology:** Agile (3 sprints)  
-- **Key Outcomes:**  
-  - 30% improvement in checkout success rate.  
-  - 100% critical defect closure pre-release.  
-  - 35% cross-browser compatibility improvement (Chrome, Firefox, Edge).  
+---
 
-## 📁 Repository Structure  
-OpenCart-Manual-Testing/
-├── Test_Plans/
-│ └── TestPlan.OpenCart.pdf
-├── Test_Cases/
-│ └── Test_Cases.xlsx
-├── Bug_Reports/
-│ ├── Azure_Defect_Summary.pdf
-│ └── Screenshots/
-├── Documentation/
-│ ├── Test_Summary_Report.md
-│ └── LICENSE
-└── README.md
+## 🧠 Overview  
+**Comprehensive manual QA** for OpenCart v4.0, focused on:  
+- **Guest checkout flow** verification  
+- **Cart edge cases** (e.g. adding 999 items)  
+- **Search & UI workflows**  
+> _Payment processing excluded due to environment constraints._
 
-## 🐞 Defect Tracking (Azure DevOps)  
-- **Total Defects Logged:** 19  
-- **Azure DevOps Project:** [View Here](https://dev.azure.com/your-link)  
-- **Screenshots:**  
-  ![Bug List](/Screenshots/Azure_Bugs_List.png)  
-  ![Sprint Progress](/Screenshots/Azure_Sprint_Progress.png)  
+---
 
-## 📄 Test Summary Report  
-[View Report](/Documentation/Test_Summary_Report.md)  
+## 📂 Project Artifacts
 
-## ⚠️ Out of Scope  
-- **Performance Testing:** Excluded due to time constraints (as per test plan).  
-- **API Testing:** Partially validated via Postman (see `/Postman_Collections`).  
+| **Artifact**               | **Description**                                               | **File**           |
+|----------------------------|---------------------------------------------------------------|--------------------|
+| **Test Plan**              | Scope: guest checkout, cart edge cases, search validation     | `TestPlan.md`      |
+| **Test Cases**             | 50+ detailed cases: login, cart, products, wishlist workflows | `TestCases.xlsx`   |
+| **Bug Reports + Screenshots** | 19 prioritized defects logged in Azure DevOps             | `/bugs/` folder    |
 
+---
+
+## 🚀 Key Activities
+
+### 1. Planning & Setup  
+- Used a **risk‑based approach** (Critical / High / Medium)  
+- Structured in 3 sprints:  
+  - **Sprint 1**: Test data prep (500-product JSON), environment config  
+  - **Sprint 2**: Manual test execution  
+  - **Sprint 3**: Defect logging & validation  
+
+### 2. Test Execution  
+- Battery-tested boundary inputs:  
+  - **Max cart size** (999 items)  
+  - **Special chars** in registration forms  
+- Ensured core flows: guest checkout → order confirmation  
+
+### 3. Defect Tracking  
+- Logged **19 bugs** with full reproduction steps, environment, and severity  
+- **Example Critical Bug**:  
+  > **Cart:** No validation on unselected product variants  
+  > - Added product (e.g., T-shirt) to cart *without selecting size*  
+  > - **Expected**: Error prompting variant selection  
+  > - **Actual**: Item silently added with default selection  
+
+---
+
+## 📦 How to View & Run
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-org/opencart-manual-test.git
+   cd opencart-manual-test
