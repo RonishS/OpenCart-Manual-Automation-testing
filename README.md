@@ -44,15 +44,7 @@
 - Logged **19 bugs** with full reproduction steps, environment, and severity  
 - **Example Critical Bug**:  
   > **Cart:** No validation on unselected product variants  
-  > - Added product (e.g., T-shirt) to cart *without selecting size*  
-  > - **Expected**: Error prompting variant selection  
-  > - **Actual**: Item silently added with default selection  
 
 ---
 
-## 📦 How to View & Run
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-org/opencart-manual-test.git
-   cd opencart-manual-test
