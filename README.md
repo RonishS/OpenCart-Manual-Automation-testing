@@ -10,7 +10,8 @@
 **Comprehensive manual QA** for OpenCart v4.0, focused on:  
 - **Guest checkout flow** verification  
 - **Cart edge cases** (e.g. adding 999 items)  
-- **Search & UI workflows**  
+- **Search & UI workflows**
+- Agile approach
 > _Payment processing excluded due to environment constraints._
 
 ---
@@ -19,9 +20,9 @@
 
 | **Artifact**               | **Description**                                               | **File**           |
 |----------------------------|---------------------------------------------------------------|--------------------|
-| **Test Plan**              | Scope: guest checkout, cart edge cases, search validation     | `TestPlan.md`      |
-| **Test Cases**             | 50+ detailed cases: login, cart, products, wishlist workflows | `TestCases.xlsx`   |
-| **Bug Reports + Screenshots** | 19 prioritized defects logged in Azure DevOps             | `/bugs/` folder    |
+| **Test Plan**              | Scope: guest checkout, cart edge cases, search validation     | `TestPlan.pdf`      |
+| **Test Cases**             | 50+ detailed cases: login, cart, products, wishlist workflows | `TestCases.pdf`   |
+| **Bug Reports + Screenshots** | 19 prioritized defects logged in Azure DevOps             | `issues.pdf'    |
 
 ---
 
@@ -46,5 +47,5 @@
   > **Cart:** No validation on unselected product variants  
 
 ---
-
+Reporting link : https://dev.azure.com/OpenCart-Testingronishshrestha20610613/OpenCart%20Testing/_backlogs/backlog/OpenCart%20Testing%20Team/Issues
 
