@@ -1,51 +1,27 @@
-# 🚛 OpenCart Manual Testing Project (v4.0)
+# 🧪 OpenCart v4.0 Manual Testing Project  
+*Comprehensive QA Assessment for E-Commerce Functionality*  
 
-[![Test Coverage](https://img.shields.io/badge/Tests-50%2B-blue)]()
-[![Bugs Logged](https://img.shields.io/badge/Bugs-19-orange)]()
-[![Status](https://img.shields.io/badge/Status-Complete-success)]()
+## 🌐 Overview  
+This project demonstrates systematic manual testing of **OpenCart v4.0** - a popular e-commerce platform used by Nepali businesses. Focused on core user workflows relevant to Nepal's market (user registration, Nepali-language product search, payment workflows), this assessment validates functionality, usability, and edge-case handling through 50+ test cases and 19 documented bugs.
 
----
+## 🎯 Project Scope  
+Tested critical e-commerce modules with real-world Nepal usage in mind:  
+- **User Account**: Registration (including Nepali character support), login, password recovery  
+- **Product Operations**: Search (English/Nepali mixed inputs), filtering, cart management  
+- **Checkout Flow**: Shipping methods (including "Cash on Delivery"), coupon validation, order history  
+- **Admin Panel**: Product inventory management, order processing  
 
-## 🧠 Overview  
-**Comprehensive manual QA** for OpenCart v4.0, focused on:  
-- **Guest checkout flow** verification  
-- **Cart edge cases** (e.g. adding 999 items)  
-- **Search & UI workflows**
-- Agile approach
-> _Payment processing excluded due to environment constraints._
+## ⚙️ Tools & Tech Stack  
+| Category       | Tools Used          |  
+|----------------|---------------------|  
+| **Test Management** | Azure DevOps (Sprint Planning, Bug Tracking) |  
+| **Environment**     | XAMPP (Localhost), Chrome DevTools          |  
+| **Documentation**   | Excel, Markdown, Screenshot Annotation      |  
 
----
-
-## 📂 Project Artifacts
-
-| **Artifact**               | **Description**                                               | **File**           |
-|----------------------------|---------------------------------------------------------------|--------------------|
-| **Test Plan**              | Scope: guest checkout, cart edge cases, search validation     | `TestPlan.pdf`      |
-| **Test Cases**             | 50+ detailed cases: login, cart, products, wishlist workflows | `TestCases.pdf`   |
-| **Bug Reports + Screenshots** | 19 prioritized defects logged in Azure DevOps             | `issues.pdf'    |
-
----
-
-## 🚀 Key Activities
-
-### 1. Planning & Setup  
-- Used a **risk‑based approach** (Critical / High / Medium)  
-- Structured in 3 sprints:  
-  - **Sprint 1**: Test data prep (500-product JSON), environment config  
-  - **Sprint 2**: Manual test execution  
-  - **Sprint 3**: Defect logging & validation  
-
-### 2. Test Execution  
-- Battery-tested boundary inputs:  
-  - **Max cart size** (999 items)  
-  - **Special chars** in registration forms  
-- Ensured core flows: guest checkout → order confirmation  
-
-### 3. Defect Tracking  
-- Logged **19 bugs** with full reproduction steps, environment, and severity  
-- **Example Critical Bug**:  
-  > **Cart:** No validation on unselected product variants  
-
----
-Reporting link : https://dev.azure.com/OpenCart-Testingronishshrestha20610613/OpenCart%20Testing/_backlogs/backlog/OpenCart%20Testing%20Team/Issues
-
+## 📅 Key Activities & Timeline  
+```mermaid
+graph LR
+A[Sprint 1<br>User Module] --> B[Sprint 2<br>Product & Cart]
+B --> C[Sprint 3<br>Checkout]
+C --> D[Regression Cycle<br>Post-Bug Fix]
+D --> E[Edge Case & BVA Focus]
