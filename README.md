@@ -24,3 +24,12 @@ This project documents systematic manual testing of OpenCart v4.0 - a widely use
 •  Promo code "FESTIVAL50@#" → Invalid format error  
 •  Product quantity = 1000 → "Exceeds stock" warning  
 •  Search query: "" (blank) → Meaningful empty state  
+
+## 📌 Bug Tracking Dashboard
+
+All bugs for this OpenCart testing project were logged and managed using **Azure DevOps**.  
+You can view the full issue board with status, severity, and reproduction steps here:
+
+🔗 [View Bug Reports & Sprint Board on Azure DevOps »](https://dev.azure.com/OpenCart-Testingronishshrestha20610613/OpenCart%20Testing/_boards/board/t/OpenCart%20Testing%20Team/Issues)
+
+> ⚠️ Note: You may need to be signed into Azure DevOps to view this board.
