@@ -14,17 +14,17 @@ This project showcases systematic manual testing of OpenCart v4.0, documenting 1
 ## 🧪 Test Scope
 **Critical modules tested:**
 - **Authentication**: Login validation, password recovery
-- **Product Discovery**: English/Nepali search, filtering
-- **Cart System**: Quantity boundaries (0,1,999,1000), price calculations
-- **Checkout**: Payment methods (including COD), coupon validation
-- **Admin Operations**: Order management, inventory updates
+- **Product Discovery**:  search, filtering
+- **Cart System**: Quantity boundaries (0,1,101,1000), price calculations
+- **Checkout**: Payment methods (including COD), coupon validation || not 100% checkout
+
 
 ## 🐞 Bug Tracking Dashboard
 All defects were systematically tracked using **Azure DevOps** with:
 - Priority/Severity labeling
-- Status tracking (New → Retest → Closed)
+- Status tracking (To Do → Doing → Done)
 - Sprint-wise categorization
-- Attached evidence (screenshots, screen recordings)
+- Attached evidence (screenshots, )
 
 ## [View Bug Reports & Sprint Board on Azure DevOps »](<https://dev.azure.com/OpenCart-Testingronishshrestha20610613/OpenCart%20Testing/_boards/board/t/OpenCart%20Testing%20Team/Issues>)
 
