@@ -8,7 +8,6 @@ This project showcases systematic manual testing of OpenCart v4.0, documenting 1
 - **19 validated bugs** logged with full reproduction steps
 - **Azure DevOps integration** for end-to-end defect management
 - **Boundary value analysis** for critical fields (cart limits, pricing)
-- **Nepal-market relevant scenarios**: Cash on Delivery, Unicode support
 - **Real-world edge cases**: Blank searches, invalid coupons, zero-quantity orders
 
 ## 🧪 Test Scope
