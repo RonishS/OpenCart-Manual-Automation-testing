@@ -1,28 +1,50 @@
-\# OpenCart QA Project — Manual Testing
+\# OpenCart Manual Testing
 
 
 
-This repository documents the manual QA lifecycle for the OpenCart e-commerce platform: test plan, detailed test cases (including negative \& boundary), Azure DevOps bug reports, screenshots, and a formal test summary report.
+
+
+\## Overview
+
+This repository contains the complete manual testing documentation for the OpenCart e-commerce platform, including test plans, test cases, bug reports, and screenshots.
 
 
 
-\## Structure
+
+
+\## Folder Structure
+
+
 
 \- `Manual-Testing/`
 
-&nbsp; - `TestPlan.(docx|pdf)`
+&nbsp; - `TestPlan.pdf` → Test strategy, objectives, scope, and schedule
 
-&nbsp; - `TestCases.(xlsx|csv)` — includes positive, negative, and boundary cases
+&nbsp; - `TestCases.xlsx` → Positive, negative, and boundary test cases
 
-&nbsp; - `TestSummaryReport.(docx|pdf)`
+&nbsp; - `Test Summary Report.pdf` → Overview of testing activities and results
 
 &nbsp; - `BugReports/`
 
-&nbsp;   - `AzureDevOps-BugReports-YYYYMMDD.pdf`
+&nbsp;   - `Reports/` → Individual bug reports (DOCX or PDF)
 
-&nbsp;   - `Jira-BugReports-YYYYMMDD.pdf` (to be added)
+&nbsp;   - `Screenshots/` → Evidence of defects
 
-&nbsp;   - `Screenshots/`
+
+
+\## How to View
+
+
+
+1\. Open PDFs in `Manual-Testing/` for plans, test cases, and summary.  
+
+2\. Check `BugReports/Reports` for detailed bug documents.  
+
+3\. Screenshots of bugs are in `BugReports/Screenshots/`.  
+
+4\. For live bug tracking, visit \[Azure DevOps Bug Reports](https://dev.azure.com/OpenCart-Testingronishshrestha20610613/OpenCart%20Testing/\_queries/query/fa4fec05-23d6-4d8c-9500-eaf115a1c547/).
+
+
 
 
 
@@ -31,42 +53,6 @@ This repository documents the manual QA lifecycle for the OpenCart e-commerce pl
 Azure DevOps (bugs), Excel/Word, (Jira planned)
 
 
-
-\## Next
-
-Add Automation (Java + Selenium + TestNG + POM + CI)
-
-\# OpenCart QA Project — Manual Testing
-
-
-
-This repository documents the manual QA lifecycle for the OpenCart e-commerce platform: test plan, detailed test cases (including negative \& boundary), Azure DevOps bug reports, screenshots, and a formal test summary report.
-
-
-
-\## Structure
-
-\- `Manual-Testing/`
-
-&nbsp; - `TestPlan.(docx|pdf)`
-
-&nbsp; - `TestCases.(xlsx|csv)` — includes positive, negative, and boundary cases
-
-&nbsp; - `TestSummaryReport.(docx|pdf)`
-
-&nbsp; - `BugReports/`
-
-&nbsp;   - `AzureDevOps-BugReports-YYYYMMDD.pdf`
-
-&nbsp;   - `Jira-BugReports-YYYYMMDD.pdf` (to be added)
-
-&nbsp;   - `Screenshots/`
-
-
-
-\## Tools
-
-Azure DevOps (bugs), Excel/Word, (Jira planned)
 
 
 
