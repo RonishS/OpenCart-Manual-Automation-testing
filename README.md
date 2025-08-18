@@ -2,13 +2,19 @@
 
 
 
+!\[GitHub last commit](https://img.shields.io/github/last-commit/RonishS/OpenCart-Manual-testing?style=flat-square)
+
+!\[GitHub issues](https://img.shields.io/github/issues/RonishS/OpenCart-Manual-testing?style=flat-square)
+
+\[!\[Azure DevOps](https://img.shields.io/badge/Azure-DevOps-blue?style=flat-square)](https://dev.azure.com/OpenCart-Testingronishshrestha20610613/OpenCart%20Testing/\_queries/query/fa4fec05-23d6-4d8c-9500-eaf115a1c547/)
+
+!\[License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
 
 
 \## Overview
 
 This repository contains the complete manual testing documentation for the OpenCart e-commerce platform, including test plans, test cases, bug reports, and screenshots.
-
-
 
 
 
@@ -46,13 +52,9 @@ This repository contains the complete manual testing documentation for the OpenC
 
 
 
-
-
 \## Tools
 
-Azure DevOps (bugs), Excel/Word, (Jira planned)
-
-
+Azure DevOps (bugs), Excel/Word, Java, Selenium, TestNG, (Jira planned)
 
 
 
