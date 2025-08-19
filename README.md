@@ -38,7 +38,7 @@ It demonstrates the full QA process including:
    - **Azure DevOps:** [Bug Reports](https://dev.azure.com/OpenCart-Testingronishshrestha20610613/OpenCart%20Testing/_queries/query/fa4fec05-23d6-4d8c-9500-eaf115a1c547/)  
    - **Jira:** [Bug Reports](https://ronishshrestha2061-1739716364440.atlassian.net/jira/software/projects/OCDR/boards/2)  
 
----
+
 
 ## 🛠 Tools & Techniques  
 
@@ -47,7 +47,6 @@ It demonstrates the full QA process including:
 - **Techniques:** Boundary Value Analysis (BVA), Equivalence Partitioning, Negative Testing  
 - **Platform Under Test:** OpenCart (e-commerce)  
 
----
 
 ## ✅ Highlights  
 
@@ -55,8 +54,7 @@ It demonstrates the full QA process including:
 - Reported & tracked **19+ critical defects** in Jira & Azure DevOps, ensuring 100% resolution.  
 - Prepared **test plans, defect reports, traceability matrix, and closure documentation** for complete QA lifecycle visibility.  
 
----
 
 ## 🚀 Next Steps  
 
-Automation testing planned in a **separate repository** (using Selenium + Pytest).  
+Automation testing planned in a **separate repository** (using Selenium).  
